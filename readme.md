@@ -1,10 +1,10 @@
 # 💻 #boracodar - Calculadora
 
-<img src="./img/img-projeto.png" alt="Imagem do projeto" />
+<img src="/assets/img-projeto.png" alt="Imagem do projeto" />
 
 <div align="center">
 
-[🚀 Acesse aqui](https://queiiroz.github.io/calculator/)
+[🚀 Acesse aqui]()
 
 </div>
 
@@ -30,7 +30,7 @@ Este é o <a href="https://www.figma.com/community/file/1202607074523509182">lay
 <table>
   <tr>
     <td>
-     <img src="./img/avatar-gleidsonqueiroz.png" alt="Avatar do programador" width="100px"/>
+     <img src="./assets/avatar-gleidsonqueiroz.png" alt="Avatar do programador" width="100px"/>
     </td>
     <td>
       Feito por Gleidson Queiroz.</a> 🙋🏼‍♂️
