@@ -1,6 +1,6 @@
 # 💻 #boracodar - Calculadora
 
-<img src="/assets/img-projeto.png" alt="Imagem do projeto" />
+<img src="./assets/img-projeto.png" alt="Imagem do projeto" />
 
 <div align="center">
 
@@ -13,6 +13,8 @@
 O desafio 5 é um layout de uma calculadora.
 
 No desafio não precisava deixar funcional porém resolvi deixa-la funcional.
+
+Fique à vontade para adicionar melhorias!
 
 ## 🎨 Layout do projeto
 
