@@ -7,50 +7,58 @@
     <title>#boracoda Calculadora | Rocketseat</title>
     <link rel="stylesheet" href="./style.css" />
     <link rel="icon" href="./assets/calculator.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Allison&family=Poppins:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
     <section class="container">
       <h1>Calculadora</h1>
-
       <table class="calculadora">
         <tr>
-          <td colspan="4"><input type="text" class="display" readonly /></td>
+          <td colspan="4">
+            <input type="text" class="display" readonly disabled />
+          </td>
         </tr>
 
         <tr>
-          <td><button class="btn btn-clear">C</button></td>
-          <td><button class="btn btn-num">(</button></td>
-          <td><button class="btn btn-num">)</button></td>
-          <td><button class="btn btn-num">/</button></td>
+          <td><button class="btn btn-clear cinza">C</button></td>
+          <td><button class="btn btn-num cinza">(</button></td>
+          <td><button class="btn btn-num cinza">)</button></td>
+          <td><button class="btn btn-num verde">/</button></td>
         </tr>
 
         <tr>
-          <td><button class="btn btn-num">7</button></td>
-          <td><button class="btn btn-num">8</button></td>
-          <td><button class="btn btn-num">9</button></td>
-          <td><button class="btn btn-num">*</button></td>
+          <td><button class="btn btn-num preto">7</button></td>
+          <td><button class="btn btn-num preto">8</button></td>
+          <td><button class="btn btn-num preto">9</button></td>
+          <td><button class="btn btn-num verde">*</button></td>
         </tr>
 
         <tr>
-          <td><button class="btn btn-num">4</button></td>
-          <td><button class="btn btn-num">5</button></td>
-          <td><button class="btn btn-num">6</button></td>
-          <td><button class="btn btn-num">+</button></td>
+          <td><button class="btn btn-num preto">4</button></td>
+          <td><button class="btn btn-num preto">5</button></td>
+          <td><button class="btn btn-num preto">6</button></td>
+          <td><button class="btn btn-num verde">-</button></td>
         </tr>
 
         <tr>
-          <td><button class="btn btn-num">1</button></td>
-          <td><button class="btn btn-num">2</button></td>
-          <td><button class="btn btn-num">3</button></td>
-          <td><button class="btn btn-num">-</button></td>
+          <td><button class="btn btn-num preto">1</button></td>
+          <td><button class="btn btn-num preto">2</button></td>
+          <td><button class="btn btn-num preto">3</button></td>
+
+          <td><button class="btn btn-num verde">+</button></td>
         </tr>
 
         <tr>
-          <td><button class="btn btn-num">.</button></td>
+          <td><button class="btn btn-num cinza">.</button></td>
           <td><button class="btn btn-num">0</button></td>
-          <td><button class="btn btn-del">&laquo;</button></td>
-          <td><button class="btn btn-eq">=</button></td>
+          <td><button class="btn btn-del cinza">&laquo;</button></td>
+          <td><button class="btn btn-eq verde">=</button></td>
         </tr>
       </table>
     </section>
