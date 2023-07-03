@@ -4,7 +4,7 @@
 
 <div align="center">
 
-[🚀 Acesse aqui](https://calculadora-queiroz.netlify.app)
+[🚀 Acesse aqui](https://calculadora-queiroz.vercel.app/)
 
 </div>
 
